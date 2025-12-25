@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>bootstrap demo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <div>
+      <!--mx mhanje margin my kadina jaga sutte ani p mhanje padding  jaga suttte -->
+      <h2 class="mx-5 my-5 p-3 text-center bg-warning">Image demo</h2>
+      <!--img src na img gheto alt ani width and height ghyachi rounded circle madhe img yete float end mhanje right side la yrto,start mhanlywar left side la,center la yeto -->
+      <img src="V.jpeg" alt="not found" width="400" height="400" class="rounded-circle float-end">
+      
+      <h3>ALERT DEMO</h3>
+      <!--alert is syntax alert madhe aplyla ekada msg alert karyacha asla tar alert cha use karto yachya madhe a ha syntax use kartat
+      parat class ghevun alert chi link ghetat tya madhe aplyala link var click pan karta yete yachya madhe bg la vegle ani text la vegle color devu shakto-->
+      <P class="alert alert-danger">WARNING <a href="#" class="alert-link">click here to free some space</a></P>
+      <P class="alert alert-success">SUCCESS! THE STORAGE IS AMLOST FULL.<a href="#" class="alert-link ">click here to free some space</a></P>
+
+      <P class="alert alert-primary">PRIMARY! THE STORAGE ALMOST FULL.<a href="#" class="alert-link">click here to free some space</a></P>
+      <p class="alert alert-info">INFO! THE STORAGE ALMOST FULL.<a href="#" class="alert-link">click here to free some space</a></p>
+      
+    </div>
+
+    <!--how to create button-->
+    <h3>button demo</h3>
+    <!--button madhe syntax ha button ahe tya madhe type button ghycha aai class pan ghyacha ani class madhe btn he use karyacha button sattthi tya madhe bg devu
+    button chi size large lg small la sm and other -->
+    <button type="button" class="btn bg-primary">BASIC BUTTON</button>
+    <button type="button" class="btn btn-success btn-lg">PRIMARY BUTTON</button>
+    <button type="button" class="btn btn-danger btn-sm">DANGER BUTTON</button>
+    <button type="button" class="btn btn-success btn-lg">WARNING BUTTON</button>
+    <button type="button" class="btn btn-info">INFO BUTTON</button>
+    <button type="button" class="btn btn-light">LIGHT BUTTON</button>
+    <button type="button" class="btn btn-dark">DARK BUTTON</button>
+    <!--link button he link kashi yete click karyala tasa yete tyachya khalli underline aste-->
+    <button type="button" class="btn btn-link">LINK BUTTON</button>
+   <!--button madhe aplyala vegle vegle button gheta yetet spinner mhanje goal goal firta te tyachi aplyala size pan declare karta yete ani button na aplyala je name dyacha te devu shakto-->
+    <button type="button" class="btn btn-primary">
+      <span class="spinner-border spinner-border-sm"></span>
+      loading...
+    </button>
+</body>
+</html>
